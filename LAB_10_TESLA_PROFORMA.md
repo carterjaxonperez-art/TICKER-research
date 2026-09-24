@@ -80,7 +80,7 @@ It intentionally types the FY2025 cash balance into FY2026 and must stop before 
 
 **Answer draft:** The 10% years are judgments, not guidance; they assume energy storage remains a growth contributor and vehicle volume recovers as capacity and product availability improve. I would reduce them if deliveries, average selling prices, energy deployments, or tariffs show that the assumed recovery is not occurring.
 
-Add the partner’s actual name and their exact attack/answer after the review; this document does not invent an interaction.
+
 
 ## Sources
 
