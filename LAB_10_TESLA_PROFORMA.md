@@ -62,9 +62,11 @@ Run:
 python lab10_tesla_proforma.py
 ```
 
-The model prints five years of statements and a balance check of zero in every year. The base case produces approximately **$29.85 per share**. This is a mechanical output, not a recommendation; it is heavily affected by the FY2026 capex guidance and the assumed post-2026 margin/volume recovery.
+The model is a five-year engine: it prints income-statement, balance-sheet, cash-flow/FCFE, and check blocks for 2026–2030. Every base-case balance check prints zero and cash remains above zero. **Final projected stock price (FCFE): $22.88 per share.** The FCFF cross-check prints $29.85 per share; the FCFE value is the final price because the Lab 09 engine values equity cash flow directly.
 
-TSLA was about **$377.33 intraday on September 24, 2026** when checked. On the same 3.751bn year-end share count, the model says about $29.85 while the market says about $377.33; the question is whether the market’s implied autonomy, AI, and future-margin expectations can be supported by future operating cash flow.
+FY2026 FCFE is negative because the model uses Tesla's guidance that capital expenditure will exceed $20bn. The model records that explicit cash burn, and its terminal value uses FY2030 FCFE only after terminal cash flow becomes positive; a terminal value based on negative FCFE would not be meaningful.
+
+TSLA was about **$377.33 intraday on September 24, 2026** when checked. On the same 3.751bn year-end share count, the FCFE model says about $22.88 while the market says about $377.33; the question is whether the market’s implied autonomy, AI, and future-margin expectations can be supported by future operating cash flow.
 
 For the required refusal check, run:
 
@@ -80,7 +82,7 @@ It intentionally types the FY2025 cash balance into FY2026 and must stop before 
 
 **Answer draft:** The 10% years are judgments, not guidance; they assume energy storage remains a growth contributor and vehicle volume recovers as capacity and product availability improve. I would reduce them if deliveries, average selling prices, energy deployments, or tariffs show that the assumed recovery is not occurring.
 
-
+Add the partner’s actual name and their exact attack/answer after the review; this document does not invent an interaction.
 
 ## Sources
 
