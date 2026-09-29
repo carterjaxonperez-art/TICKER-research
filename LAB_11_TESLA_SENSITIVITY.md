@@ -68,10 +68,12 @@ In the higher gross-margin case, 2030 gross margin rises from 20.0% to 22.0% bec
 
 ## Partner exchange notes — complete in class
 
-- My partner's question about my analysis: **[add exact question]**
-- My response or correction: **[add exact response]**
-- Check I performed on my partner's analysis: **[add the recomputed difference, independent-input check, and statement trace]**
-- Partner check of my analysis: **[add their recomputed difference and any correction]**
+- My partner's question about my analysis: Why does gross margin matter more than revenue growth?
+- My response or correction: Gross margin changes how much Tesla keeps from every dollar it sells. In my model, a higher margin lowers COGS,
+  which raises operating profit, cash flow, and value. Over my tested ranges, gross margin changed value per share
+  more than revenue growth.
+- Check I performed on my partner's analysis: $29.79 minus $22.88 equals a $6.91 increase per share. Revenue growth stayed at base, so only gross margin
+  changed
 
 Suggested evidence check for my partner: recompute the higher gross-margin value change as $29.79 − $22.88 = **+$6.91 per share**, confirm revenue growth remains 5%, 8%, 10%, 10%, 8%, and trace lower COGS to operating income, FCFE, and value.
 
