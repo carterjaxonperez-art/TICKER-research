@@ -105,7 +105,11 @@ This is practice only.
 - **Partner summary:** The base model values Tesla below the saved market price; margin is the largest tested driver; the biggest limits are judgment ranges, omitted autonomy/AI cash flows, and no peer comparison.
 - **Strength:** The model clearly connects assumptions to cash flow and value.
 - **Improve:** Add a dated peer comparison and research gross-margin evidence.
-- **My review of a mock partner:** I ask for a source supporting their main assumption, trace it to cash flow and value, and ask whether their sensitivity range changes the ranking. I check one subtraction in their table and explain back their conclusion, main driver, and limitation.
+- **My review of a mock partner — question:** What source supports your main assumption? **Mock answer:** My company’s latest annual report supports it with the reported revenue trend and management discussion.
+- **My review — question:** How does the assumption reach value? **Mock answer:** Higher revenue raises operating income, then cash flow, then DCF value; the exact effect depends on margin and reinvestment.
+- **My review — question:** Could your range change the driver ranking? **Mock answer:** Yes. A wider range can make an input appear more important, so the ranking applies only to the stated range.
+- **My review — check:** I recompute one table change as changed value minus base value. **Mock result:** The subtraction agrees with the table.
+- **My explanation back:** Your value depends on the stated growth and margin assumptions. Your main driver is revenue growth over your range, and your limitation is that the range needs stronger evidence.
 - **Reflection:** The range question reminded me that sensitivity shows impact, not probability. I keep the base conclusion and investigate Tesla’s gross-margin path next.
 
 ## Submission links
