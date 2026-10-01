@@ -2,7 +2,7 @@
 
 ## Current conclusion (start here)
 
-**Conditional conclusion:** The five-year FCFE base case estimates Tesla at **$22.88 per share**, versus a saved **$377.33 intraday TSLA price on September 24, 2026**. Both values are in USD per common share and use **3,751 million FY2025 year-end shares**. I therefore cannot support the observed price from the base operating-cash-flow assumptions alone. The conclusion is conditional: Tesla may justify a higher value only if future growth, margins, autonomy/AI economics, or other valuation assumptions are materially stronger than this model assumes.
+**Conditional conclusion:** The five-year FCFE base case estimates Tesla at **$22.88 per share**, versus a saved **$377.94 TSLA regular-session closing price on September 24, 2026 (4:00 p.m. EDT)**. Both values are in USD per common share and use **3,751 million FY2025 year-end shares**. I therefore cannot support the observed price from the base operating-cash-flow assumptions alone. The conclusion is conditional: Tesla may justify a higher value only if future growth, margins, autonomy/AI economics, or other valuation assumptions are materially stronger than this model assumes.
 
 This is a model-based conclusion, not an instruction to buy, sell, or hold securities.
 
@@ -39,9 +39,9 @@ Open: [Lab 10 report](LAB_10_TESLA_PROFORMA.md) and [Tesla pro-forma code](lab10
 
 The primary valuation is an **FCFE DCF**, not an enterprise-value DCF. It discounts annual FCFE at a 10.0% required return and applies a 3.0% terminal-growth rate to positive FY2030 FCFE. The result is directly an equity value, so it does **not** require an enterprise-to-equity bridge. Debt is held constant; cash is already captured through FCFE and the balance-sheet forecast. The model also prints an FCFF cross-check of $29.85 per share. The $6.97 difference reflects different cash-flow conventions and terminal calculations, so I do not average them.
 
-The valuation date is **September 24, 2026** for the saved market-price comparison; the valuation uses FY2025 actuals and a FY2026–30 forecast. The market-price comparison is limited because the saved price is intraday and the valuation does not separately model autonomy, robotaxi, Optimus, or a full segment-level Energy-storage forecast.
+The valuation date is **September 24, 2026** for the saved market-price comparison; the market observation is the **NASDAQ regular-session close of $377.94 at 4:00 p.m. EDT**, rather than an intraday indication. The valuation uses FY2025 actuals and a FY2026–30 forecast. The market-price comparison is limited because the valuation does not separately model autonomy, robotaxi, Optimus, or a full segment-level Energy-storage forecast.
 
-**Reverse DCF:** Holding COGS, R&D, SG&A, tax, D&A, capex, working-capital ratios, debt change, WACC (10%), terminal growth (3%), and shares fixed, matching $377.33 requires adding about **52.20 percentage points** to every annual revenue-growth assumption. That implies roughly **57.2%, 60.2%, 62.2%, 62.2%, and 60.2%** growth in 2026–30. This is not a literal market forecast; it shows that revenue growth alone cannot reasonably reconcile the price under the held-fixed base assumptions. Open [reverse-DCF code](lab12_tesla_reverse_dcf.py).
+**Reverse DCF:** Holding COGS, R&D, SG&A, tax, D&A, capex, working-capital ratios, debt change, WACC (10%), terminal growth (3%), and shares fixed, matching the **$377.94 regular-session close** requires a parallel percentage-point increase to every annual revenue-growth assumption. Run the saved [reverse-DCF code](lab12_tesla_reverse_dcf.py) to reproduce the precise bisection result; it holds the stated operating, reinvestment, discount-rate, terminal-growth, and share-count inputs fixed. This is not a literal market forecast; it shows that revenue growth alone cannot reasonably reconcile the price under the held-fixed base assumptions.
 
 **Peer-comparison limitation:** No Tesla peer-multiple analysis or dated peer-market inputs are saved in this workspace. I will not invent a peer target or average it with the DCF. A proper next step is a same-date, same-currency comparison with BYD, GM, Ford, and an Energy-storage-relevant group, using a metric appropriate to each business and explaining why capital structure, segment mix, and earnings quality make multiples differ. This unresolved item limits triangulation but does not invalidate the disclosed FCFE DCF.
 
@@ -61,9 +61,9 @@ For the higher-margin case, COGS falls from 80% to 78% of unchanged 2030 revenue
 
 I keep the conditional conclusion: the base DCF does not support the saved market price. I would revise it if evidence supports a sustained margin improvement, materially stronger deliveries/ASP and Energy-storage growth, or separately modeled autonomy/AI cash flows. My next research priority is Tesla’s gross-margin path—vehicle pricing, mix, tariffs, manufacturing efficiency, and Energy-storage mix/margin—because gross margin is the largest driver in the stated sensitivity ranges. The peer analysis is the second priority because it is currently unresolved.
 
-## Reviewer notes — complete with the real partner
+## Matthew discussion record — prepare before class; complete during the real discussion
 
-Do not paste a simulated exchange as if it occurred. Record brief, factual notes while reviewing the partner.
+Matthew is the assigned learning partner. The prompts below prepare the required discussion, but the bracketed fields must be replaced with Matthew's real company, answer, source/calculation check, and feedback during class. They are intentionally not fabricated as completed participation.
 
 ### Questions I asked my partner
 
@@ -85,24 +85,24 @@ Do not paste a simulated exchange as if it occurred. Record brief, factual notes
 - Evidence-backed strength: **[specific strength]**
 - Specific improvement: **[specific next action]**
 
-## Presenter review notes — complete with the real partner
+## Matthew's review of my TSLA presentation — complete during the real discussion
 
-- Question received: **[exact question]**
+- Matthew's question received: **[exact question]**
 - My answer or a specifically scoped gap: **[answer; if unresolved, say what evidence/calculation is needed]**
 - What I will keep, revise, or investigate: **Keep the FCFE conclusion and investigate gross-margin evidence and a dated peer comparison.**
 - Does the review change my conclusion or research priority? **No change before new evidence: the base model remains below the saved price; gross-margin evidence remains the first priority because it has the largest tested value span.**
 - Question that made me reconsider something: **[complete after the conversation]**
 - What I understand better now: **[complete after the conversation]**
 
-## Simulated practice exchange — not a record of class participation
+## TSLA discussion rehearsal with Matthew — not a record of class participation
 
 This is practice only.
 
-- **Partner asks:** Why Tesla? **I answer:** Its auto, Energy, and AI expectations make it a good valuation case. The FY2025 10-K supports the delivery, ASP, and Energy trends.
-- **Partner asks:** Why use $22.88 instead of $29.85? **I answer:** $22.88 is my FCFE DCF; $29.85 is an FCFF cross-check. They use different cash-flow methods, so I do not average them.
-- **Partner asks:** Does margin rank first only because of your range? **I answer:** Yes, the ranking is only over my ±2-point ranges. Margin has a $13.82 value span versus $8.27 for growth, but another range could change that.
+- **Matthew prompt — selection/evidence:** Why Tesla? **Prepared answer:** Its auto, Energy, and AI expectations make it a good valuation case. The FY2025 10-K supports the delivery, ASP, and Energy trends.
+- **Matthew prompt — model/valuation:** Why use $22.88 instead of $29.85? **Prepared answer:** $22.88 is my FCFE DCF; $29.85 is an FCFF cross-check. They use different cash-flow methods, so I do not average them.
+- **Matthew prompt — sensitivity/interpretation:** Does margin rank first only because of your range? **Prepared answer:** Yes, the ranking is only over my ±2-point ranges. Margin has a $13.82 value span versus $8.27 for growth, but another range could change that.
 - **Check:** $29.79 − $22.88 = **+$6.91** per share. Revenue growth stayed at base, so only margin changed.
-- **Partner summary:** The base model values Tesla below the saved market price; margin is the largest tested driver; the biggest limits are judgment ranges, omitted autonomy/AI cash flows, and no peer comparison.
+- **Matthew explain-back prompt:** The base model values Tesla below the saved market price; margin is the largest tested driver; the biggest limits are judgment ranges, omitted autonomy/AI cash flows, and no peer comparison.
 - **Strength:** The model clearly connects assumptions to cash flow and value.
 - **Improve:** Add a dated peer comparison and research gross-margin evidence.
 - **My review of a mock partner — question:** What source supports your main assumption? **Mock answer:** My company’s latest annual report supports it with the reported revenue trend and management discussion.
@@ -114,6 +114,7 @@ This is practice only.
 
 ## Submission links
 
+- [Source register with page and section citations](TSLA_LAB_12_SOURCE_REGISTER.md)
 - [Lab 10 pro-forma report](LAB_10_TESLA_PROFORMA.md)
 - [Lab 10 code](lab10_tesla_proforma.py)
 - [Lab 11 sensitivity report](LAB_11_TESLA_SENSITIVITY.md)
