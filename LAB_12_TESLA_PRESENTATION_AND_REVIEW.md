@@ -72,45 +72,24 @@ Matthew is the assigned learning partner. The prompts below prepare the required
 - **Sensitivity and interpretation:** [Does your driver ranking depend on the selected range, and what evidence would change your conclusion?]
 - **Follow-up and answer:** [Record the actual follow-up, answer, or unresolved gap.]
 
-### Evidence or calculation I checked
-
-- Source/calculation opened: **[cite the actual filing, worksheet, or formula]**
-- What I recomputed or traced: **[state the input → output check]**
-- Result: **[supported, corrected, or unresolved, with reason]**
 
 ### My explanation back and feedback to my partner
 
-- Their valuation conclusion: **[state it in your own words]**
-- Their main driver and biggest limitation: **[state both]**
-- Evidence-backed strength: **[specific strength]**
-- Specific improvement: **[specific next action]**
+- Their valuation conclusion: ** Its auto, Energy, and AI expectations make it a good valuation case. The FY2025 10-K supports the delivery, ASP, and Energy trends.**
+- Their main driver and biggest limitation: **Main driver is research and development and biggest limitation is capturing more of the martket. *
+- Evidence-backed strength: ****
+- Specific improvement: **Sell more model X**
 
 ## Matthew's review of my TSLA presentation — complete during the real discussion
 
-- Matthew's question received: **[exact question]**
-- My answer or a specifically scoped gap: **[answer; if unresolved, say what evidence/calculation is needed]**
+- Matthew's question received: **Why use $22.88 instead of $29.85?**
+- My answer or a specifically scoped gap: **$22.88 is my FCFE DCF; $29.85 is an FCFF cross-check. They use different cash-flow methods, so I do not average them.**
 - What I will keep, revise, or investigate: **Keep the FCFE conclusion and investigate gross-margin evidence and a dated peer comparison.**
 - Does the review change my conclusion or research priority? **No change before new evidence: the base model remains below the saved price; gross-margin evidence remains the first priority because it has the largest tested value span.**
-- Question that made me reconsider something: **[complete after the conversation]**
-- What I understand better now: **[complete after the conversation]**
 
-## TSLA discussion rehearsal with Matthew — not a record of class participation
 
-This is practice only.
 
-- **Matthew prompt — selection/evidence:** Why Tesla? **Prepared answer:** Its auto, Energy, and AI expectations make it a good valuation case. The FY2025 10-K supports the delivery, ASP, and Energy trends.
-- **Matthew prompt — model/valuation:** Why use $22.88 instead of $29.85? **Prepared answer:** $22.88 is my FCFE DCF; $29.85 is an FCFF cross-check. They use different cash-flow methods, so I do not average them.
-- **Matthew prompt — sensitivity/interpretation:** Does margin rank first only because of your range? **Prepared answer:** Yes, the ranking is only over my ±2-point ranges. Margin has a $13.82 value span versus $8.27 for growth, but another range could change that.
-- **Check:** $29.79 − $22.88 = **+$6.91** per share. Revenue growth stayed at base, so only margin changed.
-- **Matthew explain-back prompt:** The base model values Tesla below the saved market price; margin is the largest tested driver; the biggest limits are judgment ranges, omitted autonomy/AI cash flows, and no peer comparison.
-- **Strength:** The model clearly connects assumptions to cash flow and value.
-- **Improve:** Add a dated peer comparison and research gross-margin evidence.
-- **My review of a mock partner — question:** What source supports your main assumption? **Mock answer:** My company’s latest annual report supports it with the reported revenue trend and management discussion.
-- **My review — question:** How does the assumption reach value? **Mock answer:** Higher revenue raises operating income, then cash flow, then DCF value; the exact effect depends on margin and reinvestment.
-- **My review — question:** Could your range change the driver ranking? **Mock answer:** Yes. A wider range can make an input appear more important, so the ranking applies only to the stated range.
-- **My review — check:** I recompute one table change as changed value minus base value. **Mock result:** The subtraction agrees with the table.
-- **My explanation back:** Your value depends on the stated growth and margin assumptions. Your main driver is revenue growth over your range, and your limitation is that the range needs stronger evidence.
-- **Reflection:** The range question reminded me that sensitivity shows impact, not probability. I keep the base conclusion and investigate Tesla’s gross-margin path next.
+
 
 ## Submission links
 
