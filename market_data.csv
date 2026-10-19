@@ -1,0 +1,2 @@
+as_of_date,as_of_time_et,ticker,price_usd,price_type,source,definition,status
+2026-10-16,16:00,TSLA,354.72,NASDAQ regular-session close,https://chartexchange.com/symbol/nasdaq-tsla/historical/,Prior trading-day close used because the October 19 session remained open,Verified webpage

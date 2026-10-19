@@ -1,0 +1,9 @@
+case,year,field,value,units,basis,evidence,challenge,revision_trigger
+Base,2027,vehicle_volume_growth,0.08,%,FY2026E bridge then moderate recovery,Q3 2026 release reported 486532 deliveries,Price competition and demand could reduce delivery growth,Quarterly deliveries and order trends
+Base,2027,vehicle_asp_change,-0.02,%,Pricing discipline and mix uncertainty,Tesla 2025 10-K cited lower ASP,Further price cuts could overwhelm mix,Automotive revenue per delivery
+Base,2027,energy_revenue_growth,0.25,%,Energy deployment and backlog growth,Q3 2026 release reported 13.7 GWh deployment,Project timing and pricing may reduce recognition,Quarterly energy revenue and gross profit
+Base,2027,automotive_gross_margin,0.18,%,Measured recovery from FY2025,2025 Form 10-K segment results,Tariffs and incentives may raise costs,Automotive gross profit trend
+Base,2027,energy_gross_margin,0.25,%,Energy mix improvement judgment,2025 Form 10-K notes energy expansion,Battery costs and project mix may compress margin,Energy gross margin disclosure
+Base,2027,capex,18000,USDm,Moderates after 2026 investment peak,Q2 2026 10-Q expects 2026 CapEx >$25bn,AI and fleet investment may remain elevated,Updated annual CapEx outlook
+Base,2027,wacc,0.10,%,Conservative placeholder pending date-consistent beta/ERP dataset,Model convention,Cost of capital may differ materially,Freeze Treasury beta and ERP sources
+Base,2027,terminal_growth,0.03,%,Long-run nominal growth convention,Model convention,Terminal economics may not support it,Long-run reinvestment and margin evidence

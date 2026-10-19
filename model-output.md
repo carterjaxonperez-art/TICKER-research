@@ -1,0 +1,49 @@
+# Tesla Project 1 Executed Model Output
+
+USD millions except per-share values. The market comparison uses the prior trading day regular-session close because the October 19 session remained open.
+
+## DCF scenarios
+
+| Case | WACC | Terminal growth | EV | Equity | Value/share | TV share |
+|---|---:|---:|---:|---:|---:|---:|
+| Bear | 16.6% | 2.5% | $-42,952 | $-7,269 | $-1.94 | -2.4% |
+| Base | 15.6% | 3.0% | $1,470 | $37,153 | $9.90 | 1564.0% |
+| Bull | 14.6% | 3.0% | $78,231 | $113,914 | $30.36 | 92.5% |
+
+Observed TSLA price: $354.72 NASDAQ regular-session close on 2026-10-16, the prior trading day.
+Base-case upside/(downside) to that close: -97.2%.
+Reverse DCF: holding explicit FCFF and WACC fixed, terminal growth of 15.4% is required to reach the market price. This is economically implausible and diagnostic only.
+
+## Base forecast
+
+| Year | Revenue | EBIT | Net income | CFO | CapEx | FCFF | Cash |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| 2026E | $121,658 | $1,497 | $1,183 | $5,580 | $26,000 | $-20,420 | $10,000 |
+| 2027E | $132,320 | $3,083 | $2,436 | $9,195 | $18,000 | $-8,805 | $10,000 |
+| 2028E | $143,559 | $6,026 | $4,760 | $12,753 | $15,000 | $-2,247 | $10,000 |
+| 2029E | $155,229 | $7,501 | $5,926 | $14,669 | $13,000 | $1,669 | $11,669 |
+| 2030E | $167,271 | $8,517 | $6,728 | $15,913 | $11,500 | $4,413 | $16,082 |
+| 2031E | $178,288 | $9,241 | $7,300 | $16,743 | $10,500 | $6,243 | $22,326 |
+
+## Validation
+
+- PASS 2026 balance sheet
+- PASS 2026 cash flow
+- PASS 2026 minimum cash
+- PASS 2027 balance sheet
+- PASS 2027 cash flow
+- PASS 2027 minimum cash
+- PASS 2028 balance sheet
+- PASS 2028 cash flow
+- PASS 2028 minimum cash
+- PASS 2029 balance sheet
+- PASS 2029 cash flow
+- PASS 2029 minimum cash
+- PASS 2030 balance sheet
+- PASS 2030 cash flow
+- PASS 2030 minimum cash
+- PASS 2031 balance sheet
+- PASS 2031 cash flow
+- PASS 2031 minimum cash
+- PASS WACC direction
+- PASS growth direction
