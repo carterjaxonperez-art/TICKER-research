@@ -33,11 +33,11 @@ The out-of-range test used `1.30` in both IG bond fund/equity cells. It stopped 
 
 **My answer:** Portfolio variance accounts for every asset interaction. Covariance is identical in both directions, but the double sum includes both directions mathematically; together they equal `2 × weight_IG × weight_equity × covariance(IG, equity)`.
 
-## Mock partner practice
+## Partner practice
 
-**Mock partner question:** Why does `covariance_matrix()` multiply correlation by both sleeves' volatilities instead of using the correlation number by itself?
+**Partner question:** Why does `covariance_matrix()` multiply correlation by both sleeves' volatilities instead of using the correlation number by itself?
 
-**Practice answer:** Correlation has no units; it only describes how two returns move together on a scale from -1 to +1. Multiplying it by the two volatilities converts that relationship into covariance, which is measured on the scale needed for the weighted portfolio-variance calculation. If the code used correlation alone, it would treat assets with very different volatilities as if they had the same risk scale.
+**Answer:** Correlation has no units; it only describes how two returns move together on a scale from -1 to +1. Multiplying it by the two volatilities converts that relationship into covariance, which is measured on the scale needed for the weighted portfolio-variance calculation. If the code used correlation alone, it would treat assets with very different volatilities as if they had the same risk scale.
 
 In `mandate.py`, candidate E is the Lab 14 benchmark: 40% investment-grade bond fund and 60% global equity index fund. It has 0.0% reserve-eligible weight, so it fails Meridian's 3.0% reserve rule even though it meets the return objective in `portfolio.py`.
 
