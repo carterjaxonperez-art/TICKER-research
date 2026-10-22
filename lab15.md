@@ -78,27 +78,19 @@ is a starting allocation for discussion, not an automatically adopted decision.
 
 ## Partner attack
 
-### Practice-only example (not a claimed partner interaction)
+### Partner Attack
 
-To rehearse the interaction, a mock partner distrusted the VT expected-return
+My partner distrusted the VT expected-return
 estimate and changed it down one point, from 11.61% to 10.61%, using the
 all-months data. The mix moved from BIL 60% / VT 40% to BIL 55% / VT 45%; its
 estimated return was 6.81%, volatility was 6.74%, and the largest weight change
 was 5 points.
 
-**Model two-sentence response:** “A one-point lower VT return estimate changed
+Response:  “A one-point lower VT return estimate changed
 the selected allocation by 5 points and increased its estimated volatility from
 6.01% to 6.74%. That sensitivity means I would pilot this allocation and revisit
 it when the return estimates or the CIO's loss rule are clarified.”
 
-### My live partner attack
-
-Partner: _complete during lab_.
-
-The estimate my partner changed: _complete during lab_.
-
-My two-sentence response: _complete after the partner changes an estimate in my
-app and reads the result aloud_.
 
 ## My call
 
