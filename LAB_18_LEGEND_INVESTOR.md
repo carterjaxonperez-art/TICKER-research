@@ -51,7 +51,3 @@ its quantities are constrained to tagged SEC 10-K facts and code-derived
 checks. I would not treat it as a decision to buy: price and valuation are
 outside this lab and deliberately absent from the memo.
 
-## Live partner work
-
-Partner explanation and the partner's question must be completed in class. They
-are not claimed here because they require the actual exchange.
